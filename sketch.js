@@ -38,7 +38,7 @@ function draw() {
 
     if(block1.isTouching(ball) && ball.bounceOff(block1)){
         ball.shapeColor = rgb(0,0,255);
-        
+        music.play();
     }
 
     if(block2.isTouching(ball)){
